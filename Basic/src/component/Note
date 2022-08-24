@@ -1,0 +1,54 @@
+1)Component
+    -Functiona Component
+    -class Component : contain constructor and this keyword
+
+2)JSX
+    -javascript + XML
+    -DOM return JSX 
+
+3)State
+    -this.State is object declared inside constructor
+    -value can be transfer to other Component as Props
+4)Props
+    -props is passed in Component to pass value into Component
+5)this.setState
+    -used to change state key value
+    -parameter can be object or Function and Function parameter are state,props respec.
+6)Methods as Props
+    -function can also be passed as props and parameter can be defined from other Component
+7)binding of Methods
+    -binding is required in method if this keyword is used inside Methods
+8)conditional Operator
+    -if-else
+    -short-circuits Operator
+    -ternary Operator
+9)List , Key
+    -using map method with parameter list,key
+    -key should be used as unique key
+    -key cannot be pass props
+10)pureComponent , Memo
+    -pureComponent used in class Component: compare shallow comparetion  if true doesnot re-Render
+    -Memo used in functional Component
+11)form
+    -declare value and onChange with function
+    -use onSubmit event
+12)Ref , Ref-Forward 
+    -Ref used fetch element and focus form
+    -Ref-Forward method use to pass ref as parameter and used in child Component
+13)portal
+    -use method React.createPortal()
+    -used add new element
+14)LifeCycle
+    -mounting
+    -updating
+    -unmounting
+    -Error
+15)error
+    -if any error then only show error for that Component other should work
+16)Higher order Component
+    -use to reuse code 
+17)Render Props
+    -same as HOC
+18)context
+    -props value can fetch by grandson directly
+19)HTTP - get and post
