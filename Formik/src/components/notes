@@ -1,0 +1,7 @@
+-managing the form state
+-handling form submission
+-validation and error messages
+
+--formik initialvalue property should be same as name attribute value of input.
+--use Form tag then no need of onsubmit , use Field tag instead of input then no need of onChange,onBlur and Value attribute.
+

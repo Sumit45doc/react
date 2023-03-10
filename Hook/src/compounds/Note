@@ -1,0 +1,32 @@
+1)Why hook required?
+    - HOC and Render props makes code compilcated
+    -To avoid this keyword
+    -Reusebility of code 
+    -Reduce use of class
+
+2)useState
+    -same as state in class
+    -const [name,setName] = useState("sumit);
+
+3)useEffect
+    -replacement of componentDidMount, componentDidUpdate and componentDidUnmount
+    -runs after every Render
+
+4)useContext
+    -concept is same as context in class 
+    -difference is in consumer side only    
+5)useReducer
+    -concept is used from reduce() method of js
+    -state management
+6)useCallback
+    -Use for better performance
+    -Avoid render of unneccesary function
+7)useMemo
+    -Avoid render of unneccesary function
+    -Use for better performance
+    -used when function return value
+8)useRef
+    -use to focus input or get text/html
+    -pass as variable 
+9)Costum hook   
+    -used to own hook

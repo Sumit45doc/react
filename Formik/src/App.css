@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+form {
+  margin-top: 2rem;
+}
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 20px;
+}
+input[type="text"],
+input[type="email"],textarea {
+  display: block;
+  width: 400px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #555;
+  background-color: white;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.form-control {
+  margin-bottom: 20px;
+}
+.error{
+  color: red;
+}

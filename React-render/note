@@ -1,0 +1,9 @@
+- after inital render if the state is same therre is no re-render
+- after re-render if there is same state it will re-render once for security of state but children don't rerender.
+- As children component also re-render when parent re-render when state changes.So there is optimization issue.
+- For optimation we can use React.memo or children props technique.
+- Mostly prefer children pros technique
+- Use memo only when there very less change of props change.
+- Never use memo if there component as children props as children are assumed as change props.
+- As there anything in component which is dynamically change without depending on props never use memo. 
+- ChildFive also re-render because person object is recreated as parent component re-rendered.So object becomes new object for childFive props. Can be used useMemo and useCallback to solve the problem
